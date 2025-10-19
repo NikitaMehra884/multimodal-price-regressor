@@ -37,13 +37,14 @@ The solution pipeline includes:
 
 ## 📁 Project Structure
 ```
+multimodal-price-regressor/
 │
 ├── dataset/
 │ ├── train.csv
 │ └── test.csv
 │
 ├── images/
-│ ├── (Downloaded product images...)
+│ └── (Downloaded product images...)
 │
 ├── notebooks/
 │ └── price_prediction.ipynb # Main Jupyter Notebook
@@ -56,9 +57,8 @@ The solution pipeline includes:
 ├── utils.py # Helper functions (e.g., parallel image downloader)
 ├── requirements.txt # Project dependencies
 └── README.md
-```
 ---
-
+```
 ## 🧠 Methodology
 
 The solution is built on a robust pipeline that **processes and combines features** from different data sources before feeding them into a **powerful ensemble model**.
