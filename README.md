@@ -36,7 +36,7 @@ The solution pipeline includes:
 ---
 
 ## 📁 Project Structure
-'''
+```
 │
 ├── dataset/
 │ ├── train.csv
@@ -56,7 +56,7 @@ The solution pipeline includes:
 ├── utils.py # Helper functions (e.g., parallel image downloader)
 ├── requirements.txt # Project dependencies
 └── README.md
-'''
+```
 ---
 
 ## 🧠 Methodology
